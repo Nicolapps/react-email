@@ -1,7 +1,7 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  serverExternalPackages: ['@react-email/components', '@react-email/render'],
+  serverExternalPackages: ['@react-email/components', 'react-email-render-no-dynamic-imports'],
   async redirects() {
     return [
       {

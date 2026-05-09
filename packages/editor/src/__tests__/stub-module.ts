@@ -1,5 +1,5 @@
 /**
- * Stub for `@react-email/render` in the Vite browser test environment.
+ * Stub for `react-email-render-no-dynamic-imports` in the Vite browser test environment.
  * The render package depends on Node-only modules (`prettier`) that
  * Vite cannot resolve in the browser. Only the render functions are
  * stubbed — components resolve from the real `react-email` source.

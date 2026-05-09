@@ -14,7 +14,7 @@
     "directory": "benchmarks/tailwind-component"
   },
   "dependencies": {
-    "@react-email/render": "workspace:*",
+    "react-email-render-no-dynamic-imports": "workspace:*",
     "react-email": "workspace:*",
     "react": "catalog:",
     "react-dom": "catalog:",

@@ -1,4 +1,4 @@
-import { render } from '@react-email/render';
+import { render } from 'react-email-render-no-dynamic-imports';
 import { Container } from './index.js';
 
 describe('<Container> component', () => {

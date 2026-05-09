@@ -1,4 +1,4 @@
-import { render } from '@react-email/render';
+import { render } from 'react-email-render-no-dynamic-imports';
 import { Heading } from './index.js';
 
 describe('render', () => {

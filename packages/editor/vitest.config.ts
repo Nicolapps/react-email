@@ -4,7 +4,7 @@ import { playwright } from '@vitest/browser-playwright';
 import { defineConfig } from 'vitest/config';
 
 /**
- * Stub for `@react-email/render` in the browser test environment.
+ * Stub for `react-email-render-no-dynamic-imports` in the browser test environment.
  * The render package depends on Node-only modules (`prettier`) that
  * Vite cannot resolve in the browser. Only the render package is
  * stubbed — components are resolved from the real `react-email` source.
@@ -29,7 +29,7 @@ export default defineConfig({
         plugins: [react({})],
         resolve: {
           alias: {
-            '@react-email/render': renderStub,
+            'react-email-render-no-dynamic-imports': renderStub,
           },
         },
         test: {

@@ -1,4 +1,4 @@
-import { pretty, render } from '@react-email/render';
+import { pretty, render } from 'react-email-render-no-dynamic-imports';
 import { ResponsiveColumn, ResponsiveRow } from '@responsive-email/react-email';
 import React from 'react';
 import plugin from 'tailwindcss/plugin';

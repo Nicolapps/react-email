@@ -1,4 +1,4 @@
-import { render } from '@react-email/render';
+import { render } from 'react-email-render-no-dynamic-imports';
 import { Body } from './index.js';
 import { marginProperties, paddingProperties } from './margin-properties.js';
 

@@ -1,7 +1,7 @@
 'use client';
 
 import * as Tabs from '@radix-ui/react-tabs';
-import { render } from '@react-email/render';
+import { render } from 'react-email-render-no-dynamic-imports';
 import classNames from 'classnames';
 import React from 'react';
 import { CodeBlock } from '@/components/code-block';

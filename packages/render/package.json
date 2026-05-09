@@ -1,5 +1,5 @@
 {
-  "name": "@react-email/render",
+  "name": "react-email-render-no-dynamic-imports",
   "version": "2.0.8",
   "description": "Transform React components into HTML email templates",
   "sideEffects": false,
