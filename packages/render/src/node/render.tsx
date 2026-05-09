@@ -1,4 +1,5 @@
 import { Suspense } from 'react';
+import reactDOMServer from 'react-dom/server';
 import { createErrorBoundary } from '../shared/error-boundary';
 import type { Options } from '../shared/options';
 import { pretty } from '../shared/utils/pretty';
@@ -6,13 +7,6 @@ import { toPlainText } from '../shared/utils/to-plain-text';
 import { readStream } from './read-stream';
 
 export const render = async (node: React.ReactNode, options?: Options) => {
-  const reactDOMServer = await import('react-dom/server').then((m) => {
-    if ('default' in m) {
-      return m.default;
-    }
-    return m;
-  });
-
   let html!: string;
   await new Promise<void>((resolve, reject) => {
     if (
