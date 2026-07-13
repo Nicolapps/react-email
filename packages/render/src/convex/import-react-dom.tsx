@@ -1,4 +1,4 @@
-import * as reactDOMServer from 'react-dom/server';
+import * as reactDOMServer from 'react-dom/server.edge';
 
 // The Convex runtime does not support dynamic imports in queries and
 // mutations, so we import react-dom/server statically here.
