@@ -19,4 +19,10 @@ export default defineConfig([
     outDir: './dist/edge',
     format: ['cjs', 'esm'],
   },
+  {
+    dts: true,
+    entry: ['./src/convex/index.ts'],
+    outDir: './dist/convex',
+    format: ['cjs', 'esm'],
+  },
 ]);

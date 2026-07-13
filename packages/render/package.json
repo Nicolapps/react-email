@@ -63,12 +63,12 @@
       },
       "convex": {
         "import": {
-          "types": "./dist/edge/index.d.mts",
-          "default": "./dist/edge/index.mjs"
+          "types": "./dist/convex/index.d.mts",
+          "default": "./dist/convex/index.mjs"
         },
         "require": {
-          "types": "./dist/edge/index.d.cts",
-          "default": "./dist/edge/index.cjs"
+          "types": "./dist/convex/index.d.cts",
+          "default": "./dist/convex/index.cjs"
         }
       },
       "browser": {
